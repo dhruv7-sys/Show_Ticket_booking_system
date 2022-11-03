@@ -1,0 +1,75 @@
+html,
+body {
+  height: 100%;
+}
+
+
+.h3 mb-3 fw-normal{
+  margin-bottom: -5px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 640px;
+  padding-right: 640px;
+  background-color: #a28089;
+  background-image: url("../images/bgimage.jpg");
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle{
+  border-radius: 0px;
+  margin-bottom: -2px;
+}
+
+.bottom{
+  margin-bottom: 0px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.last{
+
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.shows{
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.Timings{
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.Seats{
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.Payment{
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.Language{
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.Cinema{
+  margin-bottom: 10px;
+  border-radius: 5px;
+}

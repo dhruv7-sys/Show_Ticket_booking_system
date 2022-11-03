@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <meta name="generator" content="Hugo 0.101.0">
+    <link rel="icon" href="../../../../favicon.ico">
+    <title>Show Ticket Booking</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+
+  </head>
+  <body class="text-center" background = "background.png" >
+    <form action="/" class="form signin" method="post">
+      <img class="image" src="images/image.png" alt="" width="72" height="67">
+      <h1 class="h3 mb-3 fw-normal">Tickets now</h1>
+      <input type="text"name="fName" class="form-control top" placeholder="First name " required autofocus>
+      <input type="text" name="lName" class="form-control middle" placeholder="Last name " required autofocus>
+      <input type="text" name="email" class="form-control bottom" placeholder="Email " required autofocus>
+      <input type="text" name="PhoneNumber" class="form-control last" placeholder="PhoneNumber " required autofocus>
+      <label  for="shows">Choose Your Show:</label>
+      <select name="shows" id="shows" class="shows">
+        <option value="Brahmarstra">Brahmarstra</option>
+        <option value="Vikram Vedha">Vikram Vedha</option>
+        <option value="Thor:Love and Thunder">Thor:Love and Thunder</option>
+        <option value="Avatar : the way of water">Avatar : the way of water</option>
+      </select>
+      <label for="Timings">Choose Your Language</label>
+      <select name="Language" id="Language" class="Language">
+        <option value="Hindi">Hindi</option>
+        <option value="English">English</option>
+        <option value="Telugu">Telugu</option>
+        <option value="Telugu">Only 3 languages till now</option>
+      </select>
+      <label for="Cinema">Choose Your Cinema</label>
+      <select name="Cinema" id="Cinema" class="Cinema">
+        <option value="Hindi">Miraj cinema Khargar</option>
+        <option value="English">Inox Vashi </option>
+        <option value="Telugu">PVR Seawoods</option>
+        <option value="Telugu">Cinepolis Nerul</option>
+        <option value="Telugu">Palm Beach Galleria Vashi</option>
+      </select>
+      <label for="Timings">Choose Your Timings</label>
+      <select name="Timings" id="Timings" class="Timings">
+        <option value="7am-10am">7am-10am</option>
+        <option value="11pm-2pm">11pm-2pm</option>
+        <option value="3pm-6pm">3pm-6pm</option>
+        <option value="7pm-10pm">7pm-10pm</option>
+        <option value="11pm-2am">11pm-2am</option>
+        <option value="11pm-2am">Only 5 timings are there .</option>
+      </select>
+      <label for="No.of Seats">Choose No.of Seats</label>
+      <select name="Seats" id="Seats" class="Seats">
+        <option value="Paytm">1  (Rs-200)</option>
+        <option value="UPI">2  (Rs-400)</option>
+        <option value="3pm-6pm">3  (Rs-600)</option>
+        <option value="7pm-10pm">4  (Rs-800)</option>
+        <option value="11pm-2am">5  (Rs-1000)</option>
+        <option value="11pm-2am">6  (Rs-1200)</option>
+        <option value="UPI">7  (Rs-1400)</option>
+        <option value="3pm-6pm">8  (Rs-1600)</option>
+        <option value="7pm-10pm">9  (Rs-1800)</option>
+        <option value="11pm-2am">10  (Rs-2000)</option>
+        <option value="11pm-2am">Max - no. of Seats are 10. </option>
+      </select>
+      <label for="Payment Method">Choose Payment Method</label>
+      <select name="Payment" id="Payment" class="Payment">
+        <option value="Paytm">Paytm</option>
+        <option value="Credit/Debit Card">Credit/Debit Card</option>
+        <option value="Net Banking">Net Banking</option>
+        <option value="Mobile Wallets">Mobile Wallets</option>
+        <option value="Gift-Voucher">Gift-Voucher</option>
+        <option value="Quikpay">Quikpay</option>
+        <option value="Quikpay">Available PaymentOption.</option>
+      </select>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Book My Ticket </button>
+    </form>
+  </body>
+</html>
